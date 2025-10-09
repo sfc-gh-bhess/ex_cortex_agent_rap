@@ -36,11 +36,7 @@ export NEXT_PUBLIC_SNOWFLAKE_URL="https://<ACCOUNT LOCATOR>.snowflakecomputing.c
 export NEXT_PUBLIC_SEMANTIC_MODEL_PATH="@SALES_INTELLIGENCE.DATA.MODELS/sales_metrics_model.yaml"
 export NEXT_PUBLIC_SEARCH_SERVICE_PATH="SALES_INTELLIGENCE.DATA.SALES_CONVERSATION_SEARCH"
 export NEXT_PUBLIC_SNOWFLAKE_PAT="<PROGRAMMATIC ACCESS TOKEN>"
-```
-
-Also set the warehouse to use for the queries:
-```
-export NEXT_PUBLIC_SNOWFLAKE_WAREHOUSE="<WAREHOUSE NAME>"
+export NEXT_PUBLIC_SNOWFLAKE_WAREHOUSE="SALES_INTELLIGENCE_WH"
 ```
 
 4. Use `pnpm` to start the application. From the command-line run:
