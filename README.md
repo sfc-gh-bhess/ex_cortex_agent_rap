@@ -38,6 +38,11 @@ export NEXT_PUBLIC_SEARCH_SERVICE_PATH="SALES_INTELLIGENCE.DATA.SALES_CONVERSATI
 export NEXT_PUBLIC_SNOWFLAKE_PAT="<PROGRAMMATIC ACCESS TOKEN>"
 ```
 
+Also set the warehouse to use for the queries:
+```
+export NEXT_PUBLIC_SNOWFLAKE_WAREHOUSE="<WAREHOUSE NAME>"
+```
+
 4. Use `pnpm` to start the application. From the command-line run:
 ```
 pnpm dev

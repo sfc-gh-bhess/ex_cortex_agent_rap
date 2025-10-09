@@ -1,4 +1,4 @@
-export const demoUsers = ["James", "Mike", "Rachel", "Sarah", "Alice", "Bob"] as const;
+export const demoUsers = ["Alice", "Bob", "Charlie"] as const;
 
 export type DemoUser = typeof demoUsers[number];
 

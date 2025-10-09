@@ -127,7 +127,7 @@ export function useAgentAPIQuery(params: AgentApiQueryParams) {
                             method: 'POST',
                             body: JSON.stringify({
                                 "statement": statement2,
-                                "warehouse": "SALES_INTELLIGENCE_WH",
+                                "warehouse": (process.env.NEXT_PUBLIC_SNOWFLAKE_WAREHOUSE ?? process.env.SNOWFLAKE_WAREHOUSE ?? "SALES_INTELLIGENCE_WH"),
                                 "parameters": {
                                     "MULTI_STATEMENT_COUNT": "2",
                                     "BINARY_OUTPUT_FORMAT": "HEX",
